@@ -16,7 +16,7 @@ const ListaContactos = () => {
       
       <div className='container'>
          <Header></Header>   
-       <Link to='/form'> <p className='add_icon'><AiOutlineAppstoreAdd className='icon'/></p></Link>
+       <Link to='/'> <p className='add_icon'><AiOutlineAppstoreAdd className='icon'/></p></Link>
         <div className='list-items'>
           {contacts.map(({nombre, id,email, numero }) =>(
             <div key={id} className='card'>

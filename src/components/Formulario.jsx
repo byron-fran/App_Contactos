@@ -40,7 +40,7 @@ const Formulario = () => {
             formulario.reset()
         }
   
-        navigate('/')
+        navigate('/list')
         
       } 
       setAlerta(true)
@@ -62,7 +62,7 @@ const Formulario = () => {
 
             <form onSubmit={handleSubmit}>
                 
-                <Link className='barra' to='/'><AiOutlineContainer/></Link>
+                <Link className='barra' to='/list'><AiOutlineContainer/></Link>
                  <h1>Agregar Contacto</h1>
                 <div>
                     <input name='nombre' value={contact.nombre} placeholder='Nombre' type='text' onChange={handleAdd}/>
